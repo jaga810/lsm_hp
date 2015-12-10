@@ -7,17 +7,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.html">Lemon Smash</a>
     </div>
     <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
+      <ul class="nav navbar-nav navbar-right snip1189">
+        <li class="current"><a href="#">Home</a></li>
         <li><a href="#about">TENNIS</a></li>
         <li><a href="#promotions">EVENTS</a></li>
         <li><a href="#works">TENNIS CAMP</a></li>
-        <li><a href="#works">Boards</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -40,15 +38,53 @@
   <div class="row centered mt">
     <div class="col-lg-8 col-lg-offset-2">
       <h1>About Us</h1>
-      <p>東大レモンスマッシュ（通称レスマ）は東大の６大サークル、</p>
-      <p>そして４大インカレサークルの一角をなす、歴史と伝統があるテニスサークルです。</p>
-      <p>男子は東京大学、女子はお茶の水女子大学、日本女子大学で構成されており、</p>
-      <p>男女比はおよそ１：１となっています。</p>
-      <p>今年度の関東団体戦では男女ともにシード決めに進出し、</p>
-      <p>次回こそはシードを取るべく、切磋琢磨しています。</p>
+      <p>東大レモンスマッシュ（通称レスマ）は東大の６大サークル、<br>そして４大インカレサークルの一角をなす、歴史と伝統があるテニスサークルです。</p>
+      <p>男子は東京大学、女子はお茶の水女子大学、日本女子大学で構成されており、<br>男女比はおよそ１：１となっています。</p>
+      <p>今年度の関東団体戦では男女ともにシード決めに進出し、<br>次回こそはシードを取るべく、切磋琢磨しています。</p>
       <p>一方で遊ぶときはしっかりと遊ぶのも私達の長所です。</p>
-      <p>一貫して和気あいあいとした雰囲気で、アットホームなサークルです。</p>
+      <p>いつも和気あいあいとした雰囲気で、ふとした時に行きたくなる、アットホームなサークルです。</p>
       <p>私達と一緒に、学生生活をより楽しくて、やりがいのあるものにしませんか？</p>
+    </div>
+  </div><! --/row -->
+</div><! --/container -->
+
+<section id="members"></section>
+<div class="container">
+  <div class="row centered mt">
+    <h1>Leading Members</h1>
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <figure class="snip1139">
+        <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of
+           it has tried to.
+          <div class="arrow"></div>
+        </blockquote>
+        <%=image_tag "index/satoshi.jpg",:class => "img-responsive"%>
+        <div class="author">
+          <h5>前田聡（会長）<span>- 東京大学２年</span></h5>
+        </div>
+      </figure>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <figure class="snip1139 hover">
+        <blockquote>I don't need to compromise on my principles, because they don't have the slightest bearing on what happens to me anyway.
+          <div class="arrow"></div>
+        </blockquote>
+        <%=image_tag "index/nanako.png",:class => "img-responsive"%>
+        <div class="author">
+          <h5>島崎菜菜子（副会長）<span>- お茶の水女子大学２年</span></h5>
+        </div>
+      </figure>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <figure class="snip1139">
+        <blockquote>That's the problem with nature, something's always stinging you or oozing mucous all over you. Let's go and watch TV.
+          <div class="arrow"></div>
+        </blockquote>
+        <%=image_tag "index/motti.png",:class => "img-responsive"%>
+        <div class="author">
+          <h5>岩本啓志（副会長）<span>- 東京大学２年</span></h5>
+        </div>
+      </figure>
     </div>
   </div><! --/row -->
 </div><! --/container -->
@@ -57,36 +93,82 @@
 <div class="container">
 	<div class="row centered mt mb">
 		<h1>Activity</h1>
-
-		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-			<a href="work.html"><%=image_tag "fire_work_edit.png",:class => "img-responsive"%></a>
-		</div>
     <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-      <a href="work.html"><%=image_tag "top_page/tennis3.png",:class => "img-responsive"%></a>
+      <figure class="snip1181">
+          <%=image_tag "index/tennis.png",:class => "img-responsive"%>
+        <figcaption>
+          <div class="circle">
+            <div class="icon"><span>
+              <i class="ion-ios-paw-outline"></i></span>
+            </div>
+            <h2><span> Tennis</span></h2>
+          </div>
+        </figcaption><a href="#"></a>
+      </figure>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-      <a href="work.html"><%=image_tag "top_page/camp.png",:class => "img-responsive"%></a>
+      <figure class="snip1181">
+        <%=image_tag "index/event.png",:class => "img-responsive"%>
+        <figcaption>
+          <div class="circle">
+            <div class="icon"><span>
+              <i class="ion-ios-star-outline"></i></span>
+            </div>
+            <h2><span> Events</span></h2>
+          </div>
+        </figcaption><a href="#"></a>
+      </figure>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <figure class="snip1181">
+        <%=image_tag "index/camp.png",:class => "img-responsive"%>
+        <figcaption>
+          <div class="circle">
+            <div class="icon"><span>
+              <i class="ion-ios-pulse"></i></span>
+            </div>
+            <h2>Tennis<span> Camp</span></h2>
+          </div>
+        </figcaption><a href="#"></a>
+      </figure>
     </div>
 	</div><! --/row -->
 </div><! --/container -->
 
-<div id="social">
-	<div class="container">
-		<div class="row centered">
-			<div class="col-lg-2 col-lg-offset-2">
-				<a href=""><i class="fa fa-book"></i></a>
-			</div>
-			<div class="col-lg-2">
-				<a href="https://www.facebook.com/groups/288901954481888/?fref=ts"><i class="fa fa-facebook"></i></a>
-			</div>
-			<div class="col-lg-2">
-				<a href="https://twitter.com/lesma_2015"><i class="fa fa-twitter"></i></a>
-			</div>
+<section id="contacts"></section>
+<div class="container">
+	<div class="row centered mt mb">
+		<h1>Contacts</h1>
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <figure class="snip1256">
+        <%=image_tag "index/lsm_line_edit.png",:class => "img-responsive"%>
+        <figcaption>
+          <h3>公式LINEアカウント</h3>
+          <p>レモンスマッシュの新歓用公式アカウントです。男子向けのテニス練習会や、御茶ノ水女子大、日本女子大での勧誘情報を発信します。
+            QRコードで読み取っていただき、友だち追加してください。</p><a href="#" class="read-more">View Large QR</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <figure class="snip1256">
+        <%=image_tag "index/twitter_edit.png",:class => "img-responsive"%>
+        <figcaption>
+          <h3>Twitterアカウント</h3>
+          <p>レモンスマッシュの新歓用Twitterアカウントです。男子向けのテニス練習会や、御茶ノ水女子大、日本女子大での勧誘情報を発信します。
+            フォローして最新情報を入手しましょう！</p><a href="#" class="read-more">Open Twitter</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+    <figure class="snip1256">
+      <%=image_tag "index/mail_edit.png",:class => "img-responsive"%>
+      <figcaption>
+        <h3>E-mail</h3>
+        <p>レモンスマッシュの新歓用Emailです。新歓担当者に直接つながります。練習会の予約や質問などにお使いください。
+        </p><a href="#" class="read-more">Send Mail</a>
+      </figcaption>
+    </figure>
+  </div>
 
-      <div class="col-lg-2">
-        <a href="#"><i class="fa fa-comment"></i></a>
-      </div>
-
-		</div><! --/row -->
-	</div><! --/container -->
-</div><! --/social -->
+	</div><! --/row -->
+</div><! --/container -->
