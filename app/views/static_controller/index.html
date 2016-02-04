@@ -12,10 +12,11 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right snip1189">
-        <li class="current"><a href="#">Home</a></li>
-        <li><a href="#about">TENNIS</a></li>
-        <li><a href="#promotions">EVENTS</a></li>
-        <li><a href="#works">TENNIS CAMP</a></li>
+        <li class="current nav-txt"><a href="/">Home</a></li>
+        <li class="nav-txt"><a href="tennis">Info</a></li>
+        <li class="nav-txt"><a href="#promotions">Tennis</a></li>
+        <li class="nav-txt"><a href="#works">Events</a></li>
+        <li class="nav-txt"><a href="#works">Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -92,7 +93,20 @@
 <section id="promotions"></section>
 <div class="container">
 	<div class="row centered mt mb">
-		<h1>Activity</h1>
+		<h1>Features</h1>
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <figure class="snip1181">
+        <%=image_tag "index/camp.png",:class => "img-responsive"%>
+        <figcaption>
+          <div class="circle">
+            <div class="icon"><span>
+              <i class="ion-ios-pulse"></i></span>
+            </div>
+            <h2>basic<span> info</span></h2>
+          </div>
+        </figcaption><a href="#"></a>
+      </figure>
+    </div>
     <div class="col-lg-4 col-md-4 col-sm-4 gallery">
       <figure class="snip1181">
           <%=image_tag "index/tennis.png",:class => "img-responsive"%>
@@ -101,7 +115,7 @@
             <div class="icon"><span>
               <i class="ion-ios-paw-outline"></i></span>
             </div>
-            <h2><span> Tennis</span></h2>
+            <h2><span> tennis</span></h2>
           </div>
         </figcaption><a href="#"></a>
       </figure>
@@ -119,56 +133,5 @@
         </figcaption><a href="#"></a>
       </figure>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-      <figure class="snip1181">
-        <%=image_tag "index/camp.png",:class => "img-responsive"%>
-        <figcaption>
-          <div class="circle">
-            <div class="icon"><span>
-              <i class="ion-ios-pulse"></i></span>
-            </div>
-            <h2>Tennis<span> Camp</span></h2>
-          </div>
-        </figcaption><a href="#"></a>
-      </figure>
-    </div>
-	</div><! --/row -->
-</div><! --/container -->
-
-<section id="contacts"></section>
-<div class="container">
-	<div class="row centered mt mb">
-		<h1>Contacts</h1>
-    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-      <figure class="snip1256">
-        <%=image_tag "index/lsm_line_edit.png",:class => "img-responsive"%>
-        <figcaption>
-          <h3>公式LINEアカウント</h3>
-          <p>レモンスマッシュの新歓用公式アカウントです。男子向けのテニス練習会や、御茶ノ水女子大、日本女子大での勧誘情報を発信します。
-            QRコードで読み取っていただき、友だち追加してください。</p><a href="#" class="read-more">View Large QR</a>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-      <figure class="snip1256">
-        <%=image_tag "index/twitter_edit.png",:class => "img-responsive"%>
-        <figcaption>
-          <h3>Twitterアカウント</h3>
-          <p>レモンスマッシュの新歓用Twitterアカウントです。男子向けのテニス練習会や、御茶ノ水女子大、日本女子大での勧誘情報を発信します。
-            フォローして最新情報を入手しましょう！</p><a href="#" class="read-more">Open Twitter</a>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-    <figure class="snip1256">
-      <%=image_tag "index/mail_edit.png",:class => "img-responsive"%>
-      <figcaption>
-        <h3>E-mail</h3>
-        <p>レモンスマッシュの新歓用Emailです。新歓担当者に直接つながります。練習会の予約や質問などにお使いください。
-        </p><a href="#" class="read-more">Send Mail</a>
-      </figcaption>
-    </figure>
-  </div>
-
 	</div><! --/row -->
 </div><! --/container -->

@@ -77,22 +77,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: black;
+	color: #393939;
+  opacity: 2.0;
 }
 
 .navbar-default {
 	background-color: #E3E3E3;
 	border-color: transparent;
+  opacity: 0.8;
+}
+
+.nav-txt{
+  opacity: 1.0;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: var(--nav-font-color);
+	color:black;
 	background-color: transparent;
 	border-bottom: 2px solid var(--nav-font-color)
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: var(--nav-font-color);
+	color: black;
+  opacity: 1.0;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
@@ -114,6 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: outside none none;
   margin: 0 1em;
   padding: 0;
+  opacity: 1.0;
 }
 .snip1189 a {
   padding: 0.5em 0.8em;
@@ -122,6 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #3183FF;
   position: relative;
   text-decoration: none;
+  opacity: 1.0;
 }
 .snip1189 a:before,
 .snip1189 a:after {
@@ -198,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: #ffffff
+	color: #ffffff;
 }
 
 #social {
@@ -262,8 +271,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: #ffffff
 }
 
-#aboutwrap {
-	background: url(../img/about.jpg) no-repeat center top;
+#tenniswrap {
+	background: url(/images/tennis_top.png) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -271,6 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 550px;
 	width: 100%;
+  color: white;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -281,6 +291,20 @@ h1, h2, h3, h4, h5, h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#tenniswrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#tenniswrap h4 {
+	font-weight: 400;
+	color: #ffffff
 }
 /* Componetns*/
 @import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
@@ -514,6 +538,93 @@ figure.snip1256.hover figcaption {
   transition-delay: 0.2s;
 }
 
+/*contacts2*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+figure.snip1239 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  background-color: #07090c;
+  font-size: 16px;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+figure.snip1239 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1239 img {
+  opacity: 1;
+  max-width: 100%;
+  vertical-align: top;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+figure.snip1239 figcaption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: rotateY(90deg) translate(50%, -50%) scale(0.5);
+  transform: rotateY(90deg) translate(50%, -50%) scale(0.5);
+  z-index: 1;
+  opacity: 0;
+  padding: 0 30px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+figure.snip1239 h3,
+figure.snip1239 p {
+  line-height: 1.5em;
+}
+figure.snip1239 h3 {
+  margin: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+figure.snip1239 p {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+figure.snip1239 .read-more {
+  border: 2px solid #ffffff;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+}
+figure.snip1239 .read-more:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+figure.snip1239:hover img,
+figure.snip1239.hover img {
+  -webkit-transform: rotateY(-100deg) translateX(50%) scale(0.5);
+  transform: rotateY(-100deg) translateX(50%) scale(0.5);
+  opacity: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+figure.snip1239:hover figcaption,
+figure.snip1239.hover figcaption {
+  -webkit-transform: rotateY(0deg) translate(0, -50%) scale(1);
+  transform: rotateY(0deg) translate(0, -50%) scale(1);
+  opacity: 1;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
 /*members*/
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
@@ -600,6 +711,14 @@ figure.snip1139 .author h5 span {
   text-transform: none;
   padding-left: 5px;
 }
+
+/* infopage*/
+/* Highlights (in jumbotron in most cases) */
+.highlight { margin-top:40px; }
+	.h-caption { text-align: center; }
+	.h-caption i { display:block; font-size: 54px; color:#382526; margin-bottom:36px; }
+	.h-caption h4 { color:#382526; font-size: 16px; font-weight: bold; margin-bottom:20px; }
+	.h-body { }
 
 /* Gallery */
 .gallery {

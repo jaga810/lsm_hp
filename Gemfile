@@ -26,6 +26,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap'
 
 gem 'font-awesome-rails'
+
+#SEO
+gem 'meta-tags', :require => 'meta_tags'
+gem 'sitemap_generator'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

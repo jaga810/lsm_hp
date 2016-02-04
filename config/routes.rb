@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'static_controller#index'
+  get '/tennis', to: 'static_controller#tennis'
+  get '/google98e172d314af9745.html', to: 'static_controller#google'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
